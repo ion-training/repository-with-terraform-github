@@ -74,20 +74,20 @@ $
 Generate a token that allows terraform provider access to create a repository.
 
 Navigate to settings:
----
 ![settings](./source/screenshots/2021-10-17-23-47-31.png)
 
+
 Go to developer settings:
----
 ![developer-Settings](./source/screenshots/2021-10-17-23-52-16.png)
 
+
 Click generate new token:
----
 ![generate-new-token](./source/screenshots/2021-10-17-23-53-50.png)
+
 
 Generate a new token that would allow creation of repositories.
 _Suggestion is to not give delete permissions, if no delete permission terraform destroy would fail._
----
+
 ![access-for-token-generate](./source/screenshots/2021-10-18-00-12-11.png)
 ![copy-the-token](./source/screenshots/2021-10-18-00-09-11.png)
 
