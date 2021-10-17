@@ -24,7 +24,7 @@ _Bellow token is fake_
 ```
 
 Create the resource. \
-_for conciseness -auto-approve option was used_
+_for brevity -auto-approve option was used_
 ```
 terraform apply -auto-approve
 ```
