@@ -98,3 +98,4 @@ Set your bash environment with a variable named [HISTCONTROL](https://www.gnu.or
 ```
 HISTCONTROL=ignorespace
 ```
+When typing sensitive variables in the CLI add a space character first.
