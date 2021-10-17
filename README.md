@@ -1,5 +1,5 @@
 # repository-with-terraform-github
-example create a github repository using terraform
+Example on how to create a repository using terraform github provider
 
 ### How to use
 
@@ -17,12 +17,14 @@ Initialize the workspace. It will download the github module.
 terraform init
 ```
 
-Add the token as an environment variable, see [Tip](https://github.com/ion-training/repository-with-terraform-github#tip-avoid-writing-in-history-list-the-secrets-typed-via-environment-variables)
+Add the token as an environment variable, see [Tip](https://github.com/ion-training/repository-with-terraform-github#tip-avoid-writing-in-history-list-the-secrets-typed-via-environment-variables) \
 _Bellow token is fake_
 ```
  export TF_VAR_token="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"
 ```
 
+Create the resource. \
+_for conciseness -auto-approve option was used_
 ```
 terraform apply -auto-approve
 ```
@@ -44,7 +46,7 @@ Terraform will perform the following actions:
       + archived               = false
       + default_branch         = (known after apply)
       + delete_branch_on_merge = false
-      + description            = "My awesome briliant fantastic marvelous quick efficient"
+      + description            = "My awesome brilliant fantastic marvelous quick efficient"
       + etag                   = (known after apply)
       + full_name              = (known after apply)
       + git_clone_url          = (known after apply)
