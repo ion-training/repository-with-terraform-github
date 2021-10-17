@@ -13,6 +13,6 @@ provider "github" {
 
 resource "github_repository" "repository-with-terraform-github" {
   name        = "repo-from-terraform"
-  description = "My awesome briliant fantastic marvelous quick efficient"
+  description = "My awesome brilliant fantastic marvelous quick efficient"
   visibility = "public"
 }
