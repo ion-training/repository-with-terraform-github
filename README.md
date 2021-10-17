@@ -18,13 +18,13 @@ terraform init
 ```
 
 Add the token as an environment variable, see [Tip](https://github.com/ion-training/repository-with-terraform-github#tip-avoid-writing-in-history-list-the-secrets-typed-via-environment-variables) \
-_Bellow token is fake_
+_   bellow token is fake_
 ```
  export TF_VAR_token="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"
 ```
 
 Create the resource. \
-_for conciseness -auto-approve option was used_
+_for brevity -auto-approve option was used_
 ```
 terraform apply -auto-approve
 ```
