@@ -86,7 +86,7 @@ Click generate new token:
 ![generate-new-token](./source/screenshots/2021-10-17-23-53-50.png)
 
 
-Generate a new token that would allow creation of repositories.
+Generate a new token that would allow creation of repositories. \
 _Suggestion is to not give delete permissions, if no delete permission terraform destroy would fail._
 
 ![access-for-token-generate](./source/screenshots/2021-10-18-00-12-11.png)
