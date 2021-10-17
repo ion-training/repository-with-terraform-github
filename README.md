@@ -74,6 +74,7 @@ $
 Generate a token that allows terraform provider access to create a repository.
 
 Navigate to settings:
+
 ![settings](./source/screenshots/2021-10-17-23-47-31.png)
 
 
