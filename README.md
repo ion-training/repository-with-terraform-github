@@ -8,6 +8,7 @@ Clone the repository
 git clone https://github.com/ion-training/repository-with-terraform-github.git
 ```
 
+Change the directory into the newly downloaded repo
 ```
 cd repository-with-terraform-github
 ```
@@ -17,8 +18,8 @@ Initialize the workspace. It will download the github module.
 terraform init
 ```
 
-Add the token as an environment variable, see [Tip](https://github.com/ion-training/repository-with-terraform-github#tip-avoid-writing-in-history-list-the-secrets-typed-via-environment-variables) \
-_   bellow token is fake_
+Add the token as an environment variable, see [Tip](https://github.com/ion-training/repository-with-terraform-github#tip-avoid-writing-in-history-list-the-secrets-typed-via-environment-variables)  \
+_bellow token is fake_
 ```
  export TF_VAR_token="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"
 ```
