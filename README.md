@@ -21,7 +21,7 @@ terraform init
 Add the token as an environment variable, see [Tip](https://github.com/ion-training/repository-with-terraform-github#tip-avoid-writing-in-history-list-the-secrets-typed-via-environment-variables)  \
 _bellow token is fake_
 ```
- export TF_VAR_token="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"
+ export TF_VAR_token="token"
 ```
 
 Create the resource. \
@@ -91,7 +91,7 @@ Generate a new token that would allow creation of repositories. \
 _Suggestion is to not give delete permissions, if no delete permission terraform destroy would fail._
 
 ![access-for-token-generate](./source/screenshots/2021-10-18-00-12-11.png)
-![copy-the-token](./source/screenshots/2021-10-18-00-09-11.png)
+![copy-the-token](./source/screenshots/2021-10-18-00-09-11_01.png)
 
 ### Tip: avoid writing in history list the secrets typed via environment variables
 Set your bash environment with a variable named [HISTCONTROL](https://www.gnu.org/software/bash/manual/html_node/Bash-Variables.html#index-HISTCONTROL) that contains value _ignorespace_:
